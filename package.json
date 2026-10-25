@@ -1,0 +1,21 @@
+{
+  "name": "aegis-security",
+  "version": "1.0.0",
+  "description": "Keep your community protected and organized with Aegis Security Discord moderation across servers, anti-nuke protection, role management, support tickets, welcome messages, and role/channel recovery. Built for FiveM communities, with player verification and server status monitoring.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "check": "node scripts/check-syntax.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "private": true
+}
